@@ -1,0 +1,64 @@
+
+h1{
+    color: navy;
+    font-size: 38px;
+}
+.slider {
+   margin-top: 100px;
+    width: 100%;
+    height: 20%;
+    border: 3px solid navy;
+}
+h4{
+    color: navy;
+    font-size:24px;
+}
+div{
+  width: 90%;
+  padding: 50px;
+  margin: 20px;
+}
+button{
+position: absolute;
+    bottom: 2%;
+    left: 20%;
+    width: 60%;
+    height: 250px;
+    background-color: royalblue;
+    outline-color: black;
+    position: absolute;
+    border: 10px solid  navy;
+    border-radius: 40px;
+    img{
+        height: 100px;
+    }
+
+}
+ .content{
+  width: 850px;
+     height: 850px;
+  border: 15px solid navy;
+  padding: 50px;
+  margin: 20px;
+    position: fixed ;
+    left:5%;
+     border-radius: 10%;
+     img{
+         width: 200px;
+         height: 200px;
+         margin-left: 30px;
+         margin-bottom: 50px;
+     }
+     h5{
+         font-size: 45px;
+         margin-top: 45px;
+     }
+
+}
+ .slidecontainer {
+  width: 100%;}
+h4{
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 50px;
+}

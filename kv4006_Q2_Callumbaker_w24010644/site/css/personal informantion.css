@@ -1,0 +1,62 @@
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: white;
+    text-align: center;
+    color: blue;
+
+}
+button{
+    position: absolute;
+    bottom: 2%;
+    width: 90%;
+    height: 75px;
+    font-size: 32px;
+    border: 5px solid black;
+    border-radius: 10px;
+    align-items: center;
+}
+.field {
+    width: 160px;
+    height: 200px;
+    display: inline-block;
+    background: #9ccae3;
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    align-items: center;
+
+}
+.spaced-div {
+  padding-bottom: 20px;
+}
+
+
+.form-control {
+    border: 3px solid navy;: center;
+
+}
+
+label {
+    color: blue;
+    text-align: center;
+}
+
+img {
+    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+body {
+    background-image: url("image/background")
+}
+
+
+

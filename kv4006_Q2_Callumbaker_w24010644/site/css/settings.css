@@ -1,0 +1,115 @@
+label{
+    color:navy;
+    font-size:25px;
+}
+input{
+    width: 80%;
+    margin-bottom:50px ;
+    height: 50px;
+    border: 3px solid darkblue;
+}
+  .input-container {
+            position: relative;
+        }
+
+        .input-container img {
+            position: absolute;
+            right: 3%;
+            top: 75%;
+            transform: translateY(-50%);
+            height: 10px;
+            width: 30px;
+        }
+
+        .input-container input {
+            padding-right: 45px; /* Adjust this value based on the image size */
+            height: 50px;
+            border:3px solid navy;
+        }
+        .input-container2{
+            position: relative;
+        }
+
+        .input-container2 img {
+            position: absolute;
+            right: 3%;
+            top:75%;
+            transform: translateY(-50%);
+            height: 10px;
+            width: 30px;
+        }
+
+        .input-container2 input {
+            padding-right: 45px; /* Adjust this value based on the image size */
+            height: 50px;
+            border:3px solid navy;
+        }
+        .input-container3{
+            position: relative;
+        }
+
+        .input-container3 img {
+            position: absolute;
+            right: 3%;
+            top:73%;
+            transform: translateY(-25%);
+            height: 10px;
+            width: 30px;
+        }
+
+        .input-container3 input {
+            padding-right: 45px; /* Adjust this value based on the image size */
+            height: 50px;
+            border:3px solid navy;
+        }
+        .input-container4{
+            position: relative;
+        }
+
+        .input-container4 img {
+            position: absolute;
+            right: 4%;
+            bottom:20%;
+            transform: translateY(-10%);
+            height: 10px;
+            width: 30px;
+        }
+
+        .input-container4 input {
+            padding-right: 45px; /* Adjust this value based on the image size */
+            height: 50px;
+            border:3px solid navy;
+        }
+        .icon-bar {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+    position: fixed;
+    bottom: 0;
+    border-top-color: blue;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+}
+
+.icon-bar a img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+.icon-bar a:active{
+    background-color: red;
+}
+.icon-bar{
+    border-top: 7px solid royalblue;
+
+}

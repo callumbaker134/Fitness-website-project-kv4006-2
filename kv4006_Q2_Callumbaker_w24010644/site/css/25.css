@@ -1,0 +1,2 @@
+/* styles.css */
+.button-stack { display: inline-block; } .stacked-button { width: 100px; /* Width of the button */ height: 50px; /* Height of each button */ border: none; background-color: #007bff; /* Button color */ color: white; cursor: pointer; display: block; } .top-button { border-bottom: 2px solid white; /* Seam between buttons */ } .bottom-button { margin-top: -2px; /* Overlap the seam */ } .stacked-button:focus { outline: none; }

@@ -1,0 +1,77 @@
+
+label{
+    color: royalblue;
+    font-size: 18px;
+}
+input{
+    border:3px solid black;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: white;
+    text-align: center;
+    color: blue;
+    position:absolute; bottom: 2%;
+    width: 90%;
+    height: 70px;
+    font-size: 32px;
+    border: 5px solid black;
+    border-radius: 10px;
+   }
+a {
+    text-decoration: none;
+    color: black;
+}
+input{
+    border: 5px solid black;
+}
+.password{
+   display: inline-block;
+    position: relative;
+    border: 5px solid black;
+}
+.password input{
+    position: 10px 5px;
+    outline: none;
+    border: 0;
+}
+.pass-icon{
+    position: absolute;
+    top: 10px;
+}
+.password{
+    display: inline-block;
+    position: relative;
+    border:1px solid black;
+}
+.password input{
+    padding: 10px 5px;
+    outline: none;
+    border:0;
+}
+ .pass-icon{
+            position: relative;
+        }
+
+        .pass-icon img {
+            position: absolute;
+            right: 3%;
+            top:62%;
+            transform: translateY(-25%);
+            height: 30px;
+            width: 40px;
+        }
+
+        .pass-icon input {
+            padding-right: 45px; /* Adjust this value based on the image size */
+            height: 40px;
+        }
+        a {
+            left: 15%;
+        }
+        .text {
+            display: inline-block;
+            vertical-align: top;
+        }
+

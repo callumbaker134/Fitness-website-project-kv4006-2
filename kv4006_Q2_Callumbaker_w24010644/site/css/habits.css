@@ -1,0 +1,55 @@
+h2{
+    color: navy;
+}
+button{
+    background-color: royalblue;
+    border: 2px solid navy;
+    border-radius: 15%;
+    img{
+        width: 60px;
+        height: 60px;
+    }
+    width: 150px;
+    height: 75px;
+    position: fixed;
+    bottom: 25%;
+    left: 30%;
+
+}
+p{
+    color: navy;
+    position: fixed;
+    bottom: 32%;
+    left: 37%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.icon-bar {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+    position: fixed;
+    bottom: 0;
+    border-top-color: blue;
+}
+.icon-bar a {
+    float: left;
+    width: 20%;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+}
+
+.icon-bar a img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+.icon-bar a:active{
+    background-color: red;
+}

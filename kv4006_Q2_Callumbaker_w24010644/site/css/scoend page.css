@@ -1,0 +1,49 @@
+h1{
+    font-size:38px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top:15%;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    top:75%;
+}
+
+.btn-group-vertical{
+    width: 85%;
+    background: white;
+    color: black;
+}
+
+h2 {font-family: 'Boucherie Block',sans-serif;
+     width: 100%;
+    text-align: center;
+    position: absolute;
+    top:15%;}
+.btn-group-vertical{
+   position: fixed;
+    left: 10%;
+    top:50%;
+    padding-right: 20px;
+    align-content: center;
+    justify-content: center;
+}
+h1{
+    font-size:38px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top:15%;
+font-family: "Adobe Gothic Std B";
+}
+btn-primary{
+    background-color: white;
+    border-color: black;
+}
+btn btn-primary {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stacked Connected Buttons with Text</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            flex-direction: column;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px; /* Space between the buttons and the text */
+        }
+        .button-container button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: 1px solid #ccc; /* Border color */
+            border-radius: 15%;
+            background-color: #f1f1f1; /* Button color */
+            cursor: pointer;
+            width: 150px; /* Width of the buttons */
+        }
+        .button-container .separator {
+            width: 100%; /* Width of the separator line */
+            height: 1px; /* Height of the separator line */
+            background-color: #ccc; /* Color of the separator line */
+            margin: 0; /* No margin */
+        }
+        .text-under-buttons {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button>sign in</button>
+        <div class="separator"></div>
+        <button>create a new account +</button>
+    </div>
+    <div class="text-under-buttons">
+        <p>Text under the connected buttons</p>
+    </div>
+</body>
+</html>
+

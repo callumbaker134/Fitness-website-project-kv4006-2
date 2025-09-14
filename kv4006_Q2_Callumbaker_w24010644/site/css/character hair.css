@@ -1,0 +1,40 @@
+h1{
+    color: blue;
+}
+.sidebar{
+  width:100px;
+  height: 100vh;
+  background-color: blue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content:center;
+}
+.sidebar ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar ul li{
+  margin:400px 0;
+  transform: rotate(-90deg);
+}
+.sidebar ul li a{
+  text-decoration:none ;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}

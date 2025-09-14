@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LU FITNESS Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .profile-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+        }
+        .profile-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .profile-header img {
+            width: 24px;
+            height: 24px;
+        }
+        .profile-picture {
+            width: 100px;
+            height: 100px;
+            background-color: #e0e0e0;
+            border-radius: 50%;
+            margin: 20px auto;
+        }
+        .profile-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .settings-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .section {
+            margin-top: 20px;
+            text-align: left;
+            position: relative;
+        }
+        .section h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .section button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: #007bff;
+            font-size: 16px;
+            position: relative;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            width: 100%;
+            top: 20px;
+            left: 0;
+            border-radius: 5px;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .show {
+            display: block;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .footer img {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="person-icon.png" alt="Person Icon">
+            <h1>LU FITNESS</h1>
+            <img src="camera-icon.png" alt="Camera Icon">
+        </div>
+        <div class="profile-picture"></div>
+        <div class="profile-name">NAME</div>
+        <button class="settings-button">Settings</button>
+
+        <div class="section">
+            <h2>Dark/Bright Mode</h2>
+            <button onclick="toggleDropdown('dropdown-dark-mode')">...</button>
+            <div id="dropdown-dark-mode" class="dropdown-content">
+                <a href="#">Dark Mode</a>
+                <a href="#">Bright Mode</a>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Subscription</h2>
+            <button onclick="toggleDropdown('dropdown-subscription')">...</button>
+            <div id="dropdown-subscription" class="dropdown-content">
+                <a href="#">Monthly</a>
+                <a href="#">Annual</a>
+                <a href="#">Cancel</a>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Notifications</h2>
+            <button onclick="toggleDropdown('dropdown-notifications')">...</button>
+            <div id="dropdown-notifications" class="dropdown-content">
+                <a href="#">Email</a>
+                <a href="#">SMS</a>
+                <a href="#">Push Notifications</a>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Support</h2>
+            <button onclick="toggleDropdown('dropdown-support')">...</button>
+            <div id="dropdown-support" class="dropdown-content">
+                <a href="#">FAQ</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Feedback</a>
+            </div>
+        </
+

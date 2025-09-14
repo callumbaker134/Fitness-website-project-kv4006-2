@@ -1,0 +1,114 @@
+h1{
+    color: navy;
+    margin-top: 15px;
+}
+.ret {
+    text-decoration: none;
+    color: navy;
+    margin-right: 45px;
+}
+.colored-line {
+    border: none;
+    border-top: 5px solid darkblue; /* Change the color and thickness as needed */
+    margin-top: 10px ; /* Adjust the space above and below the line */
+}
+a:active{
+    border: blue;
+    width: 30px;
+    height: 25px;
+    border-radius:35%;
+}
+a{
+    color: darkblue;
+}
+.big{
+width: 150px;
+    height: 170px;
+    border:3px solid navy;
+    border-radius: 10%;
+    color:navy;
+img{
+        width: 17px;
+        height: 20px;
+        margin-left: 80px;
+    }
+}
+
+.small{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 70px;
+    border: 3px solid navy;
+    border-radius: 10%;
+    margin-top: 30px;
+    color:navy;
+    img{
+        width: 17px;
+        height: 20px;
+        margin-left: 100px;
+
+    }
+}
+
+
+.x{
+width:140px;
+    height: 170px;
+    border:3px solid navy;
+    border-radius: 10%;
+    color:navy;
+    justify-content: center;
+    margin-top: 20px;
+img{
+        width: 17px;
+        height: 20px;
+        margin-left: 50px;
+    }
+}
+.m{
+width: 150px;
+    height: 120px;
+    border:3px solid navy;
+    border-radius: 10%;
+    color:navy;
+    img{
+        width: 17px;
+        height: 20px;
+        margin-left: 70px;
+    }
+}
+.circle{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    margin:20px auto;
+    border: 2px solid black;
+}
+
+.field{
+    width: 20px;
+    height:30px;
+    margin-left: 20px;
+display:  inline-block;
+    border:5px solid blue;
+}
+
+.input-box{
+    width: 40px;
+    height: 60px;
+    border:2px solid royalblue;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    font-size: 24px;
+}
+.ley{
+    display: inline-grid;
+}
